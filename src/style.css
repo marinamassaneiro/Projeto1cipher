@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(250, 250, 248);   
+} 
+
+h1 {
+    text-align: center;
+    color:rgb(12, 75, 129);
+    font-size: 40px;
+    background-color: rgb(253, 150, 202);
+    border: 15px solid rgb(250, 250, 248);
+    border-style: dashed;
+    padding: 1em;
+}
+
+#root {
+    width: 1265px;
+    height: 650px;
+}
+
+#numberEncode, #numberDecode {
+    padding: 1em;
+    color: rgb(12, 75, 129);
+    font-size: 15px;
+}
+
+#wordEncode, #wordDecode {
+    padding: 1em;
+    color: rgb(12, 75, 129);
+    font-size: 15px;
+}
+
+/*#resultEncode, #resultDecode {
+    padding: 2em;
+    width: 540px;
+    color: rgb(12, 75, 129);
+    font-size: 20px;
+}*/
+
+#divEncode, #divDecode {
+    display: inline-block;
+    width: 540px;
+    height: 650px;
+    position: relative;
+    top: 30px;
+    padding: 1em;
+    text-align: center;
+    border: 20px solid rgb(39, 204, 237);
+    color: rgb(12, 75, 129);
+    font-size: 25px;
+}
+
+/*#divDecode {
+    display: inline-block;
+    width: 540px;
+    height: 650px;
+    position: static;
+    right: -800px;
+    padding: 1em;
+    text-align: center;
+    border: 20px solid rgb(39, 204, 237);
+    color: rgb(12, 75, 129);
+    font-size: 25px;
+}*/
+
+button {
+    padding: 1em; 
+    text-align: center;
+    size: 30px;
+    font-size: 16px;
+    border-color:rgb(253, 150, 202) ;
+    background-color:rgb(253, 150, 202);
+    color:rgb(250, 250, 248)
+}
