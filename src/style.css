@@ -14,60 +14,64 @@ h1 {
 
 #root {
     width: 1265px;
-    height: 650px;
+    height: 1000px;
 }
 
 #numberEncode, #numberDecode {
     padding: 1em;
-    color: rgb(12, 75, 129);
-    font-size: 15px;
-}
-
-#wordEncode, #wordDecode {
-    padding: 1em;
-    color: rgb(12, 75, 129);
-    font-size: 15px;
-}
-
-#resultEncode, #resultDecode {
-    word-break: break-all;
-    width: 540px;
+    text-align:center;
+    width: 100px;
+    height: 20px;
     color: rgb(12, 75, 129);
     font-size: 20px;
 }
 
-#divEncode, #divDecode {
+#wordEncode, #wordDecode {
+    padding: 1em;
+    text-align:center;
+    width: 240px;
+    height: 55px;
+    color: rgb(12, 75, 129);
+    font-size: 17px;
+}
+
+#resultEncode, #resultDecode {
+    word-break: break-all;
+    width: 520px;
+    height: 200px;
+    color: rgb(3, 58, 107);
+    background-color: rgb(248, 236, 200);
+    font-size: 25px;
+}
+
+#divEncode {
     display: inline-block;
     width: 540px;
-    height: 600px;
-    position: relative;
-    top: 30px;
+    height: 700px;
     padding: 1em;
     text-align: center;
-    border: 20px solid rgb(39, 204, 237);
+    border: 20px solid rgb(21, 170, 200);
     color: rgb(12, 75, 129);
     font-size: 25px;
 }
 
-/*#divDecode {
-    display: inline-block;
+#divDecode {
+    float: right;
     width: 540px;
-    height: 650px;
-    position: static;
-    right: -800px;
+    height: 700px;
     padding: 1em;
     text-align: center;
-    border: 20px solid rgb(39, 204, 237);
+    border: 20px solid rgb(21, 170, 200);
     color: rgb(12, 75, 129);
     font-size: 25px;
-}*/
+}
 
 button {
     padding: 1em; 
     text-align: center;
     size: 30px;
-    font-size: 16px;
+    font-size: 18px;
     border-color:rgb(246, 114, 180) ;
     background-color:rgb(246, 114, 180);
-    color:rgb(250, 241, 214)
+    color:rgb(247, 247, 247)
 }
