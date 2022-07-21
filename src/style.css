@@ -36,16 +36,19 @@ h1 {
 }
 
 #resultEncode, #resultDecode {
-    word-break: break-all;
+    padding: 35px 10px 0;
+    word-wrap: break-word;
+    text-align: center;
+    line-height:normal;
     width: 520px;
-    height: 200px;
+    height: 180px;
     color: rgb(3, 58, 107);
     background-color: rgb(248, 236, 200);
-    font-size: 25px;
+    font-size: 23px;
 }
 
 #divEncode {
-    display: inline-block;
+    float: left;
     width: 540px;
     height: 700px;
     padding: 1em;
