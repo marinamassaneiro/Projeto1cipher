@@ -4,13 +4,16 @@ let buttonEncode = document.querySelector("#buttonEncode");
 buttonEncode.addEventListener ("click", messageEncode);
 
 function messageEncode () {
-    let chosenWordEncode = document.querySelector("#wordEncode").value;
-    let chosenNumberEncode = document.querySelector("#numberEncode").value;
-    let numberEncode = parseInt (chosenNumberEncode);
+    let wordEncode = document.querySelector("#wordEncode").value;
+    let numberEncode = document.querySelector("#numberEncode").value;
 
-    let encoded = cipher.encode (chosenWordEncode,numberEncode);
-    let resultEncode = document.querySelector("#resultEncode");
-    resultEncode.innerHTML = encoded;
+    if (wordEncode == "" || numberEncode == "")  {
+        alert ("Você precisa selecionar o número e escrever sua mensagem");
+    } else {
+        let encoded = cipher.encode (wordEncode,numberEncode);
+        let resultEncode = document.querySelector("#resultEncode");
+        resultEncode.innerHTML = encoded;
+    }
 }
 
 
@@ -18,13 +21,15 @@ let buttonDecode = document.querySelector("#buttonDecode");
 buttonDecode.addEventListener ("click", messageDecode);
 
 function messageDecode () {
-    let chosenWordDecode = (document.querySelector("#wordDecode").value);
-    let chosenNumberDecode = (document.querySelector("#numberDecode").value);
-    let numberDecode = parseInt (chosenNumberDecode);
+    let wordDecode = (document.querySelector("#wordDecode").value);
+    let numberDecode = (document.querySelector("#numberDecode").value);
 
-    let decoded = cipher.decode (chosenWordDecode,numberDecode);
-    let resultDecode = document.querySelector("#resultDecode");
-    resultDecode.innerHTML = decoded;
+    if (wordDecode == "" || numberDecode == "")  {
+        alert ("Você precisa selecionar o número e escrever sua mensagem");
+    } else {
+        let decoded = cipher.decode (wordDecode,numberDecode);
+        let resultDecode = document.querySelector("#resultDecode");
+        resultDecode.innerHTML = decoded;
+    }
 }
-
 console.log(cipher);
