@@ -26,14 +26,14 @@ Implementar `cipher.decode`.
 * ok
 
 Passar o linter com a configuração definida.
-* 
+* AINDA NAO
 
 Passar as provas unitárias.
-* 
+* AINDA NAO
 
 Testes unitários cobrindo 70% dos _statements_, _functions_ e _lines_, e
 no mínimo 50% das _branches_.
-* 
+* AINDA NAO
 
 Interface que permita escolher o `offset` (chave de deslocamento) usava
  para cifrar/decifrar. 
@@ -62,4 +62,4 @@ Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...).
 * Ainda não entendi como fazer e to optando por finalizar todas as partes faltantes do projeto até aqui.
 
 Permitir usar `offset` negativo.
-* 
+* Ainda não entendi como fazer e to optando por finalizar todas as partes faltantes do projeto até aqui.
