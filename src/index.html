@@ -14,47 +14,45 @@
         Basta selecionar um número e digitar sua <br>
         mensagem nas caixas respectivas. <br>
         E pode usar pra contar segredos também. ;x <br></p>
-        <form>
-         <input
+        <input
           type="number";
           min="0";
           id="numberEncode";
           name="numberEncode";
-          /><br><br>
-        <input
-          type="text";
-          id="wordEncode";
-          placeholder="Digite sua mensagem aqui";
-          name="wordEncode";
-          /><br><br>
-          <button id="buttonEncode"><strong> Me surpreenda!</strong></button>
-        </form><br>
+        /><br><br>
         <textarea 
-        id="resultEncode"
-        placeholder="O resultado vai sair aqui!"></textarea>
+          id="wordEncode";
+          placeholder="Digite sua mensagem aqui"></textarea>
+          <br><br>
+        <button id="buttonEncode"><strong> Me surpreenda!</strong></button>
+        <br><br>
+        <textarea 
+          id="resultEncode"
+          placeholder="O resultado vai sair aqui";
+          readonly></textarea>
         </div>
 
-     <div id= "divDecode" position="fixed">
+     <div id= "divDecode">
       <p> Você recebeu uma mensagem diferente e está precisando de uma ajudinha pra decifrar? <br>
         Tem um número entre parênteses no final da sua mensagem, 
         selecione ele na caixinha respectiva e digite a mensagem na outra. <br></p>
-        <form> <input
+        <input
           type="number";
           min="0"
           id="numberDecode";
           name="numberDecode";
-          /><br><br>
-        <input
-          type="text";
+        /><br><br>
+        <textarea 
           id="wordDecode";
-          placeholder="Digite sua mensagem aqui";
-          name="wordDecode";
-          /><br><br>
+          placeholder="Digite sua mensagem aqui"></textarea>
+          <br><br>
         <button id="buttonDecode" ><strong>Estou curiose!</strong></button>
-      </form><br>
+        <br><br>
         <textarea
           id="resultDecode";
-          placeholder="O resultado vai sair aqui!"></textarea>
+          placeholder="O resultado vai sair aqui";
+          readonly></textarea>
+          
     </div>
   </div>
     <script src="index.js" type="module"></script>

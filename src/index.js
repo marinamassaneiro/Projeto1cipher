@@ -3,8 +3,7 @@ import cipher from './cipher.js';
 let buttonEncode = document.querySelector("#buttonEncode");
 buttonEncode.addEventListener ("click", messageEncode);
 
-function messageEncode (e) {
-    e.preventDefault ()
+function messageEncode () {
     let chosenWordEncode = document.querySelector("#wordEncode").value;
     let chosenNumberEncode = document.querySelector("#numberEncode").value;
     let numberEncode = parseInt (chosenNumberEncode);
@@ -18,8 +17,7 @@ function messageEncode (e) {
 let buttonDecode = document.querySelector("#buttonDecode");
 buttonDecode.addEventListener ("click", messageDecode);
 
-function messageDecode (e) {
-    e.preventDefault ()
+function messageDecode () {
     let chosenWordDecode = (document.querySelector("#wordDecode").value);
     let chosenNumberDecode = (document.querySelector("#numberDecode").value);
     let numberDecode = parseInt (chosenNumberDecode);
