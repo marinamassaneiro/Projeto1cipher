@@ -7,6 +7,7 @@ const cipher = {
             if (wordEncode >= 65 && wordEncode <= 90) {
                 let charCode = ((((wordEncode - 65) + offset) % 26) + 65);
                 resultEncode = resultEncode + String.fromCharCode(charCode);
+            
             } else {
                 alert ("Você precisa digitar apenas letras maiúsculas");
                 break;
@@ -20,13 +21,12 @@ const cipher = {
             let wordDecode = parseInt (word.charCodeAt(i));
 
             if (wordDecode >= 65 && wordDecode <= 90) {
-                if (wordDecode >= 72) {
-                    let charCode = ((((wordDecode - 65) + (26 - offset)) % 26) + 65);
-                    resultDecode = resultDecode + String.fromCharCode(charCode);    
-                } else {
-                let charCode = (((wordDecode - 65) + (26 - (offset % 26)) % 26) + 65);
+                let offsetTwo = parseInt (offset / 26);
+                let offsetThree = (offset - (26 * offsetTwo));
+                let charCode = (((((wordDecode - 65) - offsetThree) + 26) % 26) + 65);
                 resultDecode = resultDecode + String.fromCharCode(charCode);
-            }} else {
+                
+            } else {
                 alert ("Você precisa digitar apenas letras maiúsculas");
                 break;
             }
