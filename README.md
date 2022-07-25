@@ -1,14 +1,14 @@
 ### Parte Obrigatória
 
 `README.md` adicionar informação sobre o processo e decisões do desenho:
-* Queria algo bem divididinho (cada função na sua caixa).
+* Queria algo bem divididinho, organizado e explicativo com cada função no seu espaço.
 * Esboço https://drive.google.com/file/d/1DXdeBmQ0WwwvwNFoQlV_ToNMz498Od87/view?usp=sharing
 
 
 `README.md` explicar claramente quem são os usuários e as suas relações
  com o produto.:
 * Tentei pensar num tema simples, mas que pudesse ter uma comunicação divertida com os usuários. 
- Serão pessoas que usam internet e que tem o costume de se comunicar/enviar mensagens online. 
+ Serão pessoas que usam internet e que tem o costume de se comunicar/enviar mensagens "de felicitações" online. 
 
 `README.md` explicar claramente como o produto soluciona os
  problemas/necessidades dos usuários.:
