@@ -7,12 +7,12 @@ function messageEncode () {
     let wordEncode = document.querySelector("#wordEncode").value;
     let numberEncode = document.querySelector("#numberEncode").value;
 
-    if (wordEncode == "" || numberEncode == "")  {
-        alert ("Você precisa selecionar o número e escrever sua mensagem");
-    } else {
-        let encoded = cipher.encode (wordEncode,numberEncode);
+    try {
+        let encoded = cipher.encode (numberEncode, wordEncode);
         let resultEncode = document.querySelector("#resultEncode");
-        resultEncode.innerHTML = encoded;
+        resultEncode.innerHTML = encoded + "(" + numberEncode + ")";
+    } catch (error) {
+        alert (error.message)
     }
 }
 
@@ -24,12 +24,13 @@ function messageDecode () {
     let wordDecode = (document.querySelector("#wordDecode").value);
     let numberDecode = (document.querySelector("#numberDecode").value);
 
-    if (wordDecode == "" || numberDecode == "")  {
-        alert ("Você precisa selecionar o número e escrever sua mensagem");
-    } else {
-        let decoded = cipher.decode (wordDecode,numberDecode);
+    try {
+        let decoded = cipher.decode (numberDecode, wordDecode);
         let resultDecode = document.querySelector("#resultDecode");
         resultDecode.innerHTML = decoded;
+    } catch (error) {
+        alert (error.message)   
     }
 }
+
 console.log(cipher);

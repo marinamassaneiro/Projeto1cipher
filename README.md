@@ -8,7 +8,7 @@
 `README.md` explicar claramente quem são os usuários e as suas relações
  com o produto.:
 * Tentei pensar num tema simples, mas que pudesse ter uma comunicação divertida com os usuários. 
- Serão pessoas que usam internet e que tem o costume de se comunicar/enviar mensagens online. 
+ Serão pessoas que usam internet e que tem o costume de se comunicar/enviar mensagens e "felicitações" online.
 
 `README.md` explicar claramente como o produto soluciona os
  problemas/necessidades dos usuários.:
@@ -33,7 +33,7 @@ Passar as provas unitárias.
 
 Testes unitários cobrindo 70% dos _statements_, _functions_ e _lines_, e
 no mínimo 50% das _branches_.
-* AINDA NAO
+* ok
 
 Interface que permita escolher o `offset` (chave de deslocamento) usava
  para cifrar/decifrar. 

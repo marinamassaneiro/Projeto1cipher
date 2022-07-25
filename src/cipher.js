@@ -1,5 +1,9 @@
 const cipher = { 
-    encode: function encode (word,offset) {
+    encode: function encode (offset,word) {
+        if (typeof word !== "string" || typeof offset !== "number"){
+            throw TypeError ("Mensagem ou número em formato inválido");
+        }
+        
         let resultEncode = "";
         for (let i = 0; i < word.length; i++) {
             let newOffset = (offset - (parseInt (offset / 26)) * 26);
@@ -9,13 +13,17 @@ const cipher = {
                 resultEncode = resultEncode + String.fromCharCode(charCode);     
             } else {
                 alert ("Você precisa digitar apenas letras maiúsculas sem acento.");
-                break
+                break;
             }
         }
         return resultEncode;
     },
 
-    decode: function decode (word,offset) {
+    decode: function decode (offset, word) {
+        if (typeof word !== "string" || typeof offset !== "number"){
+            throw TypeError ("Mensagem ou número em formato inválido");
+        }
+        
         let resultDecode = "";
         for (let i = 0; i < word.length; i++) {
             let newOffset = (offset - (parseInt (offset / 26)) * 26);
@@ -25,7 +33,7 @@ const cipher = {
                 resultDecode = resultDecode + String.fromCharCode(charCode); 
             } else {
                 alert ("Você precisa digitar apenas letras maiúsculas sem acento.");
-                break
+                break;
             }
         }
         return resultDecode;
