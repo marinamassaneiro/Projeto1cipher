@@ -17,7 +17,7 @@ h1 {
     height: 1000px;
 }
 
-#numberEncode, #numberDecode {
+#offsetEncode, #offsetDecode {
     padding: 1em;
     text-align:center;
     width: 100px;
@@ -48,7 +48,7 @@ h1 {
     font-size: 19px;
 }
 
-#divEncode {
+#sectionEncode {
     float: left;
     width: 540px;
     height: 750px;
@@ -59,7 +59,7 @@ h1 {
     font-size: 24px;
 }
 
-#divDecode {
+#sectionDecode {
     float: right;
     width: 540px;
     height: 750px;

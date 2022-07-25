@@ -9,7 +9,7 @@
     <div id="root">
       <h1>UM RECADO DIFERENTE!</h1>
 
-    <div id= "divEncode">
+    <section id= "sectionEncode">
       <p> Você está procurando um jeitinho diferente de mandar uma mensagem pra alguém? Achou! <br>
         Basta selecionar um número e digitar sua <br>
         mensagem nas caixas respectivas. <br>
@@ -17,7 +17,7 @@
         <input
           type="number"
           min="0"
-          id="numberEncode"
+          id="offsetEncode"
           name="numberEncode"
         /><br><br>
         <textarea 
@@ -30,30 +30,30 @@
           id="resultEncode"
           placeholder="O resultado vai sair aqui"
           readonly> </textarea>
-        </div>
+    </section>
 
-     <div id= "divDecode">
+     <section id= "sectionDecode">
       <p> Você recebeu uma mensagem diferente e está precisando de uma ajudinha pra decifrar? <br>
         Tem um número entre parênteses no final da sua mensagem, 
         selecione ele na caixinha respectiva e digite a mensagem na outra. <br></p>
         <input
           type="number"
           min="0"
-          id="numberDecode"
+          id="offsetDecode"
           name="numberDecode"
         /><br><br>
         <textarea 
           id="wordDecode"
           placeholder="Digite sua mensagem aqui"></textarea>
           <br><br>
-        <button id="buttonDecode" ><strong>Estou curiose!</strong></button>
+        <button id="buttonDecode"><strong>Estou curiose!</strong></button>
         <br><br>
         <textarea
           id="resultDecode"
           placeholder="O resultado vai sair aqui"
           readonly> </textarea>
           
-    </div>
+     </section>
   </div>
     <script src="index.js" type="module"></script>
   </body>

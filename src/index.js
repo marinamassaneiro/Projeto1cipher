@@ -4,16 +4,16 @@ let buttonEncode = document.querySelector("#buttonEncode");
 buttonEncode.addEventListener ("click", messageEncode);
 
 function messageEncode () {
+    let offsetEncode = document.querySelector("#offsetEncode").value;
     let wordEncode = document.querySelector("#wordEncode").value;
-    let numberEncode = document.querySelector("#numberEncode").value;
+    let resultEncode = document.querySelector("#resultEncode");
 
-    try {
-        let encoded = cipher.encode (numberEncode, wordEncode);
-        let resultEncode = document.querySelector("#resultEncode");
-        resultEncode.innerHTML = encoded + "(" + numberEncode + ")";
+    resultEncode.innerHTML = cipher.encode (offsetEncode, wordEncode) + "(" + offsetEncode + ")";
+    
+    /*try {
     } catch (error) {
         alert (error.message)
-    }
+    }*/
 }
 
 
@@ -21,16 +21,16 @@ let buttonDecode = document.querySelector("#buttonDecode");
 buttonDecode.addEventListener ("click", messageDecode);
 
 function messageDecode () {
+    let offsetDecode = (document.querySelector("#offsetDecode").value);
     let wordDecode = (document.querySelector("#wordDecode").value);
-    let numberDecode = (document.querySelector("#numberDecode").value);
+    let resultDecode = document.querySelector("#resultDecode");
 
-    try {
-        let decoded = cipher.decode (numberDecode, wordDecode);
-        let resultDecode = document.querySelector("#resultDecode");
-        resultDecode.innerHTML = decoded;
+    resultDecode.innerHTML = cipher.decode (offsetDecode, wordDecode);
+
+     /*try {
     } catch (error) {
-        alert (error.message)   
-    }
+        alert (error.message)
+    }*/    
 }
 
 console.log(cipher);
