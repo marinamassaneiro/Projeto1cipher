@@ -1,7 +1,7 @@
 ### Parte Obrigatória
 
 `README.md` adicionar informação sobre o processo e decisões do desenho:
-* Queria algo bem divididinho (cada função na sua caixa).
+* Queria algo bem divididinho, organizado e explicativo com cada função no seu espaço.
 * Esboço https://drive.google.com/file/d/1DXdeBmQ0WwwvwNFoQlV_ToNMz498Od87/view?usp=sharing
 
 
