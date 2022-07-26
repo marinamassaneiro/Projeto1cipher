@@ -12,7 +12,7 @@ usuário (tela, explicações, mensagens, cores, marca?, etc.).
 ### Sobre o tema:
 * Pro layout eu queria algo que deixasse bem claro e organizado o espaço de cada função. 
 Também optei por um texto explicativo, mas que não "entregasse" pro usuário o que está sendo feito ali.
-* ![esboço]()
+* ![esboço](https://github.com/marinamassaneiro/SAP008-cipher/blob/main/Esbo%C3%A7o%20papel.jpg?raw=true)
 
 * Tentei pensar num tema simples, mas que pudesse ter uma comunicação divertida com os usuários. 
  Serão pessoas que tem o costume de se comunicar/enviar mensagens e "felicitações" online 
@@ -24,49 +24,52 @@ Também optei por um texto explicativo, mas que não "entregasse" pro usuário o
  assim a pessoa que receber a mensagem coloca esse número na caixa de offset para descriptografar a mensagem recebida.
 
 ### Parte obrigatória
-* Usar VanillaJS. 
-* Implementar `cipher.encode` e `cipher.decode`.
+* Usar VanillaJS. (__OK__)
+
+* Implementar `cipher.encode` e `cipher.decode`. (__OK__)
+
 * Passar o linter com a configuração definida.<br>
-_Não sei se entendi_
+__Não sei se entendi__
+
 * Passar as provas unitárias. <br>
-_Não sei se entendi_
+__Não sei se entendi__
+
 * Testes unitários cobrindo 70% dos statements, functions e lines, e
-no mínimo 50% das branches.
+no mínimo 50% das branches. (__OK__)
+
 * Interface que: <br> 
-Permita escolher o `offset` (chave de deslocamento) <br>
-Permita escrever um texto para ser cifrado e um para ser decifrado; <br>
-Mostre o resultado cifrado e decifrado corretamente; <br>
+Permita escolher o `offset` (chave de deslocamento) (__OK__) <br>
+Permita escrever um texto para ser cifrado e um para ser decifrado; (__OK__) <br>
+Mostre o resultado cifrado e decifrado corretamente;(__OK__) <br>
 
 ### Parte Opcional: "Hacker edition"
 
-* Cifrar/decifrar minúsculas. <br>
-_Consegui de um jeito diferente do que os teste exigiam.
+* Cifrar/decifrar minúsculas.<br>
+__Consegui de um jeito diferente do que os teste exigiam.
 Fiz com a ideia de que a letra "Z" (maiúscula) pulasse para a letra "a"(minuscula). 
-Depois que vi os testes alterei para ser compatível com eles, mantendo cada alfabeto no seu próprio giro._
+Depois que vi os testes alterei para ser compatível com eles, mantendo cada alfabeto no seu próprio giro.__
+
 * Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...). <br>
-_Consegui inserir o espaço sem cifrar ou decifrar, mas os demais, 
-por serem códigos espaçados entre si, não fiz. Optei por revisar alguns detalhes do projeto até aqui._
+__Consegui inserir o espaço sem cifrar ou decifrar, mas os demais, 
+por serem códigos espaçados entre si, não fiz. Optei por revisar alguns detalhes do projeto até aqui.__
+
 * Permitir usar `offset` negativo. <br>
-Não cheguei até aqui.
+__Não cheguei até aqui.__
 
 
-## 3. Objetivos de aprendizagem
+### Objetivos de aprendizagem
 
-### HTML <br>
-* Uso de HTML semântico
-<br>
+### HTML
+* Uso de HTML semântico<br>
 
 ### CSS
-
 * Uso de seletores de CSS
 * Empregar o modelo de caixa (box model): borda, margem, preenchimento
-<br>
 
 ### Web APIs
 * Uso de seletores de DOM
 * Manipulação de eventos de DOM
 * Manipulação dinâmica de DOM
-<br>
 
 ### JavaScript
 * Tipos de dados primitivos
@@ -79,18 +82,15 @@ Não cheguei até aqui.
 * Módulos de ECMAScript (ES modules)
 * Uso de linter (ESLINT)
 * Uso de identificadores descritivos (Nomenclatura | Semântica)
-<br>
 
 ### Controle de Versões (Git e GitHub)
 * Git: Instalação e configuração
 * Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 * GitHub: Criação de contas e repositórios, configuração de chave SSH
 * GitHub: Implantação com GitHub Pages
-<br>
 
 ### user-centricity
 * Desenhar a aplicação pensando e entendendo a usuária
-<br>
 
 ### product-design
 * Criar protótipos para obter feedback e iterar
