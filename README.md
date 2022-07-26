@@ -1,4 +1,6 @@
-## Sobre o desafio do projeto:
+# Projeto 1 - Cifra de César 
+
+### Sobre o desafio do projeto:
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
 substituida por outra que se encontra há um número fixo de posições
@@ -12,7 +14,8 @@ usuário (tela, explicações, mensagens, cores, marca?, etc.).
 ### Sobre o tema:
 * Pro layout eu queria algo que deixasse bem claro e organizado o espaço de cada função. 
 Também optei por um texto explicativo, mas que não "entregasse" pro usuário o que está sendo feito ali.
-* ![esboço](https://github.com/marinamassaneiro/SAP008-cipher/blob/main/Esbo%C3%A7o%20papel.jpg?raw=true)
+
+![esboço](https://github.com/marinamassaneiro/SAP008-cipher/blob/main/Esbo%C3%A7o%20papel.jpg?raw=true)
 
 * Tentei pensar num tema simples, mas que pudesse ter uma comunicação divertida com os usuários. 
  Serão pessoas que tem o costume de se comunicar/enviar mensagens e "felicitações" online 
@@ -24,54 +27,54 @@ Também optei por um texto explicativo, mas que não "entregasse" pro usuário o
  assim a pessoa que receber a mensagem coloca esse número na caixa de offset para descriptografar a mensagem recebida.
 
 ### Parte obrigatória
-* Usar VanillaJS. (__OK__)
+* Usar VanillaJS; (__OK__)
 
-* Implementar `cipher.encode` e `cipher.decode`. (__OK__)
+* Implementar `cipher.encode` e `cipher.decode`; (__OK__)
 
-* Passar o linter com a configuração definida.<br>
+* Passar o linter com a configuração definida; <br>
 __Não sei se entendi__
 
-* Passar as provas unitárias. <br>
+* Passar as provas unitárias; <br>
 __Não sei se entendi__
 
 * Testes unitários cobrindo 70% dos statements, functions e lines, e
-no mínimo 50% das branches. (__OK__)
+no mínimo 50% das branches; (__OK__)
 
 * Interface que: <br> 
-Permita escolher o `offset` (chave de deslocamento) (__OK__) <br>
+Permita escolher o `offset` (chave de deslocamento); (__OK__) <br>
 Permita escrever um texto para ser cifrado e um para ser decifrado; (__OK__) <br>
-Mostre o resultado cifrado e decifrado corretamente;(__OK__) <br>
+Mostre o resultado cifrado e decifrado corretamente. (__OK__) <br>
 
 ### Parte Opcional: "Hacker edition"
 
-* Cifrar/decifrar minúsculas.<br>
-__Consegui de um jeito diferente do que os teste exigiam.
+* Cifrar/decifrar minúsculas; (__OK__)<br>
+    * Consegui de um jeito diferente do que os teste exigiam.
 Fiz com a ideia de que a letra "Z" (maiúscula) pulasse para a letra "a"(minuscula). 
-Depois que vi os testes alterei para ser compatível com eles, mantendo cada alfabeto no seu próprio giro.__
+Depois que vi os testes alterei para ser compatível com eles, mantendo cada alfabeto no seu próprio giro.
 
-* Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...). <br>
-__Consegui inserir o espaço sem cifrar ou decifrar, mas os demais, 
-por serem códigos espaçados entre si, não fiz. Optei por revisar alguns detalhes do projeto até aqui.__
+* Cifrar/decifrar _outros_ caractéres (espaços, pontuação, `ç`, `á`, ...); <br>
+    * Consegui inserir o espaço sem cifrar ou decifrar, mas os demais, 
+por serem códigos espaçados entre si, não fiz. Optei por revisar alguns detalhes do projeto até aqui.
 
-* Permitir usar `offset` negativo. <br>
-__Não cheguei até aqui.__
+* Permitir usar `offset` negativo; <br>
+    * Não cheguei até aqui.
 
 
 ### Objetivos de aprendizagem
 
-### HTML
+#### HTML
 * Uso de HTML semântico<br>
 
-### CSS
-* Uso de seletores de CSS
-* Empregar o modelo de caixa (box model): borda, margem, preenchimento
+#### CSS
+* Uso de seletores de CSS;
+* Empregar o modelo de caixa (box model): borda, margem, preenchimento.
 
-### Web APIs
-* Uso de seletores de DOM
-* Manipulação de eventos de DOM
-* Manipulação dinâmica de DOM
+#### Web APIs
+* Uso de seletores de DOM;
+* Manipulação de eventos de DOM;
+* Manipulação dinâmica de DOM.
 
-### JavaScript
+#### JavaScript
 * Tipos de dados primitivos
 * Strings (cadeias de caracteres)
 * Variáveis (declaração, atribuição, escopo)
@@ -83,16 +86,16 @@ __Não cheguei até aqui.__
 * Uso de linter (ESLINT)
 * Uso de identificadores descritivos (Nomenclatura | Semântica)
 
-### Controle de Versões (Git e GitHub)
+#### Controle de Versões (Git e GitHub)
 * Git: Instalação e configuração
 * Git: Controle de versão com git (init, clone, add, commit, status, push, pull, remote)
 * GitHub: Criação de contas e repositórios, configuração de chave SSH
 * GitHub: Implantação com GitHub Pages
 
-### user-centricity
+#### user-centricity
 * Desenhar a aplicação pensando e entendendo a usuária
 
-### product-design
+#### product-design
 * Criar protótipos para obter feedback e iterar
 * Aplicar os princípios de desenho visual (contraste, alinhamento, hierarquia)
 
