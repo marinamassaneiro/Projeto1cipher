@@ -32,10 +32,8 @@ Também optei por um texto explicativo, mas que não "entregasse" pro usuário o
 * Implementar `cipher.encode` e `cipher.decode`; (__OK__)
 
 * Passar o linter com a configuração definida; <br>
-__Não sei se entendi__
 
-* Passar as provas unitárias; <br>
-__Não sei se entendi__
+* Passar as provas unitárias; (__OK__)<br>
 
 * Testes unitários cobrindo 70% dos statements, functions e lines, e
 no mínimo 50% das branches; (__OK__)

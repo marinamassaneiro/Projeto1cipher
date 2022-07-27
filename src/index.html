@@ -6,55 +6,46 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
+    <section id="root">
       <h1>UM RECADO DIFERENTE!</h1>
-
-    <section id= "sectionEncode">
-      <p> Você está procurando um jeitinho diferente de mandar uma mensagem pra alguém? Achou! <br>
+      
+      <section id= "sectionEncode">
+        <p> Você está procurando um jeitinho diferente de mandar uma mensagem pra alguém? Achou! <br>
         Basta selecionar um número e digitar sua <br>
         mensagem nas caixas respectivas. <br>
-        E pode usar pra contar segredos também. ;x <br></p>
+        E pode usar pra contar segredos também. ;x</p>
         <input
           type="number"
           min="0"
           id="offsetEncode"
-          name="numberEncode"
-        /><br><br>
+          name="numberEncode"/>
         <textarea 
           id="wordEncode"
           placeholder="Digite sua mensagem aqui"></textarea>
-          <br><br>
-        <button id="buttonEncode"><strong> Me surpreenda!</strong></button>
-        <br><br>
+        <button id="buttonEncode"><strong>Me surpreenda!</strong></button>
         <textarea 
           id="resultEncode"
           placeholder="O resultado vai sair aqui"
-          readonly> </textarea>
-    </section>
-
-     <section id= "sectionDecode">
-      <p> Você recebeu uma mensagem diferente e está precisando de uma ajudinha pra decifrar? <br>
+          readonly></textarea></section>
+          
+      <section id= "sectionDecode">
+        <p> Você recebeu uma mensagem diferente e está precisando de uma ajudinha pra decifrar? <br>
         Tem um número entre parênteses no final da sua mensagem, 
-        selecione ele na caixinha respectiva e digite a mensagem na outra. <br></p>
+        selecione ele na caixinha respectiva e digite a mensagem na outra.</p>
         <input
           type="number"
           min="0"
           id="offsetDecode"
-          name="numberDecode"
-        /><br><br>
+          name="numberDecode"/>
         <textarea 
           id="wordDecode"
           placeholder="Digite sua mensagem aqui"></textarea>
-          <br><br>
         <button id="buttonDecode"><strong>Estou curiose!</strong></button>
-        <br><br>
         <textarea
           id="resultDecode"
           placeholder="O resultado vai sair aqui"
-          readonly> </textarea>
-          
-     </section>
-  </div>
+          readonly></textarea></section>
+    </section>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -10,7 +10,6 @@ function messageEncode () {
     resultEncode.innerHTML = cipher.encode (offsetEncode, wordEncode) + "(" + offsetEncode + ")";
 }
 
-
 let buttonDecode = document.querySelector("#buttonDecode");
 buttonDecode.addEventListener ("click", messageDecode);
 
