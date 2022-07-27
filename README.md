@@ -26,6 +26,8 @@ Também optei por um texto explicativo, mas que não "entregasse" pro usuário o
  Para isso no "encode" a assinatura da mensagem vem também com o offset entre parênteses, 
  assim a pessoa que receber a mensagem coloca esse número na caixa de offset para descriptografar a mensagem recebida.
 
+ * https://marinamassaneiro.github.io/Projeto1cipher/
+
 ### Parte obrigatória
 * Usar VanillaJS; (__OK__)
 
