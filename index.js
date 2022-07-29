@@ -1,24 +1,30 @@
 import cipher from './cipher.js';
 
-let buttonEncode = document.querySelector("#buttonEncode");
+const buttonEncode = document.querySelector("#button-encode");
 buttonEncode.addEventListener ("click", messageEncode);
 
-function messageEncode () {
-    let offsetEncode = parseInt (document.querySelector("#offsetEncode").value);
-    let wordEncode = document.querySelector("#wordEncode").value;
-    let resultEncode = document.querySelector("#resultEncode");
+function messageEncode (e) {
+  e.preventDefault()
+  const offsetEncode = parseInt (document.querySelector(".offset-encode").value);
+  const wordEncode = document.querySelector(".word-encode").value;
+  const resultEncode = document.querySelector(".result-encode");
+    
+  try {
     resultEncode.innerHTML = cipher.encode (offsetEncode, wordEncode) + "(" + offsetEncode + ")";
+    } catch (error) {
+        alert (error.message);
+    }
 }
 
-
-let buttonDecode = document.querySelector("#buttonDecode");
+let buttonDecode = document.querySelector("#button-decode");
 buttonDecode.addEventListener ("click", messageDecode);
 
-function messageDecode () {
-    let offsetDecode = parseInt (document.querySelector("#offsetDecode").value);
-    let wordDecode = (document.querySelector("#wordDecode").value);  
-    let resultDecode = document.querySelector("#resultDecode");
-    resultDecode.innerHTML = cipher.decode (offsetDecode, wordDecode);
+function messageDecode (e) {
+  e.preventDefault()
+  let offsetDecode = parseInt (document.querySelector(".offset-decode").value);
+  let wordDecode = (document.querySelector(".word-decode").value);  
+  let resultDecode = document.querySelector(".result-decode");
+  resultDecode.innerHTML = cipher.decode (offsetDecode, wordDecode);
 }
 
 console.log(cipher);
